@@ -1,5 +1,9 @@
 [flake8]
-exclude = mocks,auth/migrations/versions/*.py,auth/migrations/*.py
+exclude =
+    mocks,
+    auth/migrations/versions/*.py,
+    auth/migrations/*.py,
+    venv/
 max-line-length = 120
 inline-quotes = single
 import-order-style = pep8
